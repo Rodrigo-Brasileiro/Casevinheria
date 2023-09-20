@@ -1,19 +1,19 @@
 # Casevinheria
 
-![Imagem do WhatsApp de 2023-04-12 à(s) 11 06 08 (1)](https://user-images.githubusercontent.com/126472820/236551882-fce169d2-35d1-4166-a9b5-edf259ad12f8.png)
+![logogs-removebg-preview](https://github.com/Rodrigo-Brasileiro/caseHeinz/assets/126472820/2cd126f6-513e-4762-bfc2-2e14e4d12019)
 
 <h2>Problema:</h2>
 
-<p>A vinheira Agnello tem uma tradição em São Paulo, há mais de 15 anos produzindo vinhos, contudo com a pandemia, deseja migrar parcialmente para o meio virtual, 
-com isso, também deseja automatizar o seu monitoramento de vinhos, nessa caminhada enfrentou alguns problemas, pelos quais, nós, o grupo SmartDevelopment, fomos contratados. Nós somos os encarregados de solucionar problemas relacionados as condições de armazenamento dos vinhos, isso inclui questões como: luminosidade, temperatura e umidade da vinheira Agnello, visto que a qualidade dos vinhos é diretamente influenciada por tais circunstâncias. Eles precisavam de um sistema de monitoramento utilizando um Arduino e mostrando o resultado dos sensores em uma tela LCD, assim precisando ser instalado no ambiente em que os vinhos são guardados.</p>
+<p>A vinheira Agnello tem uma tradição em São Paulo, há mais de 15 anos produzindo vinhos, contudo com a pandemia, deseja migrar parcialmente para o meio virtual, com isso, também deseja automatizar o seu monitoramento de vinhos, nessa caminhada enfrentou alguns problemas, pelos quais, nós, o grupo Tech Pulse Global Network, fomos contratados. Nós somos os encarregados de solucionar problemas relacionados as condições de armazenamento dos vinhos, isso inclui questões como: luminosidade, temperatura e umidade da vinheira Agnello, visto que a qualidade dos vinhos é diretamente influenciada por tais circunstâncias. Eles precisavam de um sistema de monitoramento utilizando ESP32 e mostrando o resultado dos sensores em uma tela LCD e os guarde em um sistema de nuvem, dado isso, a solução precisa ser instalada no mesmo ambiente no qual os vinhos são armazenados.</p>
 
 <h2>Solução:</h2>
   
-  <h3>Para solucionar o problema, fizemos um sensor de luminosidade, o qual contém as seguintes características:<h3>
+  <p>Para solucionar o problema, fizemos um sensor de luminosidade, o qual contém as seguintes características:</p>>
   <li>LDR (mede a luminosidade do local);</li>
   <li>A intensidade luminosa estando entre 70 a 100, acenderá um LED verde, indicando que a luminosidade está OK;</li>
-  <li>Em seu primeiro nível de alerta, ele acenderá um LED amarelo, com luminosidade que pode variar entre20 a 50, além de soar um buzzer;</li>
+  <li>Em seu primeiro nível de alerta, ele acenderá um LED amarelo, com luminosidade que pode variar entre 20 a 50, agregado a um buzzer;</li>
   <li>Já o segundo nível de alerta, ele acenderá um LED vermelho, além de acionar um buzzer;</li>
+  <p>Já para conseguir lidar com a questão da temperatura e umidade usamos:</p>
   <li>Sensor de umidade e temperatura (DHT11);</li>
   <li>Enquanto a umidade estiver fora da faixa ideal, o LED Vermelho deve ficar aceso e o Buzzer deve ligar continuamente;</li>
   <li>Enquanto a temperatura estiver fora da faixa ideal, o LED Amarelo deve ficar aceso e o Buzzer deve ligar continuamente;</li>
