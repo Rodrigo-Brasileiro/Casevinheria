@@ -11,17 +11,18 @@
   <p>Para solucionar o problema, fizemos um sensor de luminosidade, o qual contém as seguintes características:</p>>
   <li>LDR (mede a luminosidade do local);</li>
   <li>A intensidade luminosa estando entre 70 a 100, acenderá um LED verde, indicando que a luminosidade está OK;</li>
-  <li>Em seu primeiro nível de alerta, ele acenderá um LED amarelo, com luminosidade que pode variar entre 20 a 50, agregado a um buzzer;</li>
-  <li>Já o segundo nível de alerta, ele acenderá um LED vermelho, além de acionar um buzzer;</li>
+  <li>Em seu primeiro nível de alerta, ele acenderá um LED amarelo, com luminosidade que pode variar entre 20 a 50, simultaneamente, soara um buzzer até o problema ser solucionado;</li>
+  <li>O segundo nível de alerta, acenderá um LED vermelho, além de acionar o buzzer;</li>
   <p>Já para conseguir lidar com a questão da temperatura e umidade usamos:</p>
   <li>Sensor de umidade e temperatura (DHT11);</li>
   <li>Enquanto a umidade estiver fora da faixa ideal, o LED Vermelho deve ficar aceso e o Buzzer deve ligar continuamente;</li>
   <li>Enquanto a temperatura estiver fora da faixa ideal, o LED Amarelo deve ficar aceso e o Buzzer deve ligar continuamente;</li>
   <li>Em todos os níveis é mostrado a luminosidade, temperatura e umidade na tela lcd de 5 em 5 segundos.</li>
+  <p>PS:A solução, pode ser aplicada de dois modos, utilizando o microcontrolador ESP32 e Arduino uno R3. A única diferença é que o ESP 32 tem capacidade de wifi e bluetooth, assim, podendo ser integrado a rede do local e subir dados a nuvem.</p>
 
 <h2>Como fazer:</h2>
 <h3> Para verificação do trabalho, montamos o equipamento na bancada, com os seguintes componentes:<h3>
- <ol>-Arduino uno;</ol>
+ <ol>-Microcontrolador ESP32 ou arduino uno R3;</ol>
  <ol>-LED vermelho, verde e amarelo;</ol>
  <ol>-Buzzer;</ol>
  <ol>-Diversos jumpers (macho-macho, macho-fêmea e fêmea-fêmea);</ol>
@@ -29,8 +30,9 @@
  <ol>-Sensor LDR;</ol>
  <ol>-Display lcd (16x2);</ol>
  <ol>-6 resistores.</ol>
- <ol>-Fio para conectar no arduino</ol>
- <h3>Após ter os componentes, basta seguir os passos de montagem iguais aos do tinkercad e o DHT11, iguais ao link do sensor, não esquecendo de baixar e configurar a    biblioteca externa dele.</h3>
+ <ol>-Fio para conectar o ESP32</ol>
+ <p>Após ter os componentes, se optar por utilizar o arduino UNO, basta seguir os passos de montagem iguais ao tinkercad, clicando<a href="https://www.tinkercad.com/things/6o91AvSQkax"> aqui</a>, entretanto, pela ausência do sensor DHT11 na plataforma, é preciso utilizar a montagem de um site externo, clicando <a href="https://blogmasterwalkershop.com.br/arduino/como-usar-com-arduino-sensor-de-umidade-e-temperatura-dht11">aqui</a>, você tem acesso a diversas informações sobre o sensor e como baixar e configurar sua biblioteca externa no IDE do Arduino.</p>
+  <p>Ao optar por utilizar o microcontrolador ESP32, é necessário seguir alguns passos para configuração da sua plataforma de armazenamento e tratamento de dado.</p>
 <h3>Efetuada a montagem, utilize o código disponiblizado, coloque-o no app do arduino e o passe para o microcontrolador, depois só desfrutar.
 
 <h2>Tecnologia usada:</h2>
