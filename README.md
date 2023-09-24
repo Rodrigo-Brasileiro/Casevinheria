@@ -61,8 +61,11 @@
   
   <h4>STH-Comet</h4>
   <p>O STH-Comet é um componente da plataforma FIWARE que lida com o armazenamento histórico de dados contextuais em larga escala. Ele trabalha em conjunto com o Orion Context Broker para capturar, armazenar e consultar dados históricos. O STH-Comet oferece recursos avançados, como armazenamento eficiente em série temporal, consultas de agregação e consultas de séries temporais. Ele fornece uma API RESTful para interação e permite que os desenvolvedores acessem e analisem dados históricos de forma eficiente. Em resumo, o STH-Comet facilita o armazenamento e consulta de dados contextuais históricos na plataforma FIWARE.</p>
-  <p>Curiosidade interessante é que por meio da linguagem python e utilizando a biblioteca Matplotlib é possível gerar gráficos temporais sobre os dados solicitados pelo postaman, nesse caso, são dados da luminosidade de 15 minutos do dia 21 de setembro de 2023: </p>
- <img
+  <p>Curiosidade interessante é que por meio da linguagem python e utilizando a biblioteca Matplotlib é possível gerar gráficos temporais sobre os dados solicitados pelo postman, nesse caso, são dados da luminosidade de 15 minutos do dia 21 de setembro de 2023: </p>
+<img src="https://github.com/Rodrigo-Brasileiro/Casevinheria/blob/main/gráfico_de_luminosidade.png" />
+<p>Clique <a href="https://colab.research.google.com/drive/1I6ar-LVDiyiXknS___Rxv5jnVItatHoP?usp=sharing">aqui</a> para acessar a código em Python que gera gráficos com o STH-Comet.</p>
+
+
 
 
 
@@ -75,6 +78,15 @@ Para a utilização do DHT11, utilizamos uma biblioteca externa do site:
 https://blogmasterwalkershop.com.br/arduino/como-usar-com-arduino-sensor-de-umidade-e-temperatura-dht11 
 
 PS:Lembrando que o sensor DHT 11 não está disponível no tinkercad.
+
+<h2>Referências</h2>
+ <p>Buscando mais informações e aprimoramento, nossas referências foram:</p>
+     <ol><li>Link: https://github.com/fabiocabrini/fiware</li>
+         <li>Link: https://www.youtube.com/watch?v=nyWI3xl_LUA </li>
+         <li>Link: https://www.youtube.com/watch?v=-djV2392b-s </li>
+        <li> Link: https://fiware-sth-comet.readthedocs.io/en/latest/</li>
+       <li> Link: https://fiwaretourguide.readthedocs.io/en/latest/core/sth-comet/how-to-generate-the-history-of-Context-Information-using-STH-Comet/</li>
+     </ol>
 
 <h2>Obrigado por ler</h2>
 <h2> Fotos do nosso projeto</h2>
