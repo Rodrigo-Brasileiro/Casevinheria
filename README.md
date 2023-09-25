@@ -66,7 +66,7 @@
 <p>Clique <a href="https://colab.research.google.com/drive/1I6ar-LVDiyiXknS___Rxv5jnVItatHoP?usp=sharing">aqui</a> para acessar a código em Python que gera gráficos com o STH-Comet.</p>
 
 <h2>Arquitetura da solução:</h2>
-<img src="https://github.com/Rodrigo-Brasileiro/Casevinheria/main/arquitetura_vinheria.png"/>
+<img src="https://github.com/Rodrigo-Brasileiro/Casevinheria/blob/main/arquitetura_vinheira.png" "/>
 
 <h2>Tecnologia usada:</h2>
 Para experimentos virtuais usamos o Tinkercad com a linguagem C++.
