@@ -64,7 +64,9 @@
   <p>Curiosidade interessante é que por meio da linguagem python e utilizando a biblioteca Matplotlib é possível gerar gráficos temporais sobre os dados solicitados pelo postman, nesse caso, são dados da luminosidade de 15 minutos do dia 21 de setembro de 2023: </p>
 <img src="https://github.com/Rodrigo-Brasileiro/Casevinheria/blob/main/gráfico_de_luminosidade.png" />
 <p>Clique <a href="https://colab.research.google.com/drive/1I6ar-LVDiyiXknS___Rxv5jnVItatHoP?usp=sharing">aqui</a> para acessar a código em Python que gera gráficos com o STH-Comet.</p>
-<img src="https://github.com/Rodrigo-Brasileiro/Casevinheria/blob/main/arquitetura_vinheria.png"/>
+
+<h2>Arquitetura da solução:</h2>
+<img src="https://github.com/Rodrigo-Brasileiro/Casevinheria/main/arquitetura_vinheria.png"/>
 
 <h2>Tecnologia usada:</h2>
 Para experimentos virtuais usamos o Tinkercad com a linguagem C++.
